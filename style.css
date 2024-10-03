@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* start header section */
+.header-home{
+    background-image: url(img/download.jpg);
+    background-size:cover;
+    height: 1300px; 
+}
+.header-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 12%;
+}
+.header-content form{
+    background-color: rgb(53 129 72 / 48%);
+    width: 743px;
+    padding: 156px;
+    border-radius: 49px;
+    margin-top: 14%;
+}
+.header-content p{
+    color: #fff;
+    font-size: 92px;
+    line-height: 2;
+    font-family: system-ui;
+}
+
+
+/* end header section */
+/* start  school  section */
+.school-home h3{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 36px;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+    font-family: system-ui;
+    color: #2b5d5a;
+}
+.school-home hr{
+    width: 261px;
+    margin: auto;
+    margin-bottom: 40px;
+    background-color: #FF8F00;
+    height: 7px;
+    border: none;
+}
+.school-Content{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+   }
+   .school-Content img{
+    width: 31%;
+    margin-top: 13px;
+    margin-left: 11%;
+   }
+   .school-Content p{
+    width: 37%;
+    font-size: 28px;
+    margin-top: 84px;
+    font-family: cursive;
+    margin-right: 5%;
+   }
+   .school-Content p::first-line{
+    color: rgb(64 149 141);
+    font-size: 36px;
+    font-family: cursive;
+    line-height: 2;
+}
+   
+/* end  school  section */
+/* start dont  section */
+.dont-home{
+    background-image: url(img/i-love-my-job-so-much_329181-2178.png);
+    background-size: cover;
+    height: 1400px;
+    margin-top: 161px;
+    width: 100%;
+    display: inline-block;
+}
+
+.dont-content{
+    width: 15%;
+    margin-left: 3%;
+    margin-right: 2%;
+    background-color: #fff;
+    padding: 25px;
+    border: 1px  solid rgba(0, 0, 0, 0.158);
+    margin-bottom: 30px;
+    border-radius: 51px;
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px;
+    display: inline-block;
+}
+.dont-home h3{
+    font-size: 60px;
+    margin-top: 154px;
+    color: #795548;
+    margin-left: 700px;
+    
+}
+.dont-content img{
+    width: 80%;
+    height: 400px;
+  margin: auto;
+  display: block;
+  }
+  .dont-content h5{
+    font-size: 20px;
+    font-weight:100px;
+    margin-top: 16px;
+    letter-spacing: 2px;
+    line-height:2 ;
+    font-family: system-ui;
+  }
+  .dont-content h5::first-line{
+    color: rgb(26, 170, 170);
+    font-size: 26px;
+    font-family: system-ui;
+    line-height: 3;
+  }
+/* end  dont  section */
+/* start  dr section */
+
+.dr-home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px;
+    margin-left: 5%;
+    margin-top: 100px;
+}
+/* end  dr section */
+/* start mad section  */
+.mad-home{
+    background-image: url(img/lan.png);
+    background-size: cover;
+    height: 800px;
+    margin-top: 150px;
+    width: 100%;
+    border-radius: 356px 356px 0 0 ;
+    margin: auto;
+  display: block;
+}
+.left-contant{
+    float: left;
+}
+.left-contant p{
+    margin-top: 257px;
+    margin-left: 467px;
+    margin-right: -123px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 1.3;
+    color: #fff;
+    font-family: system-ui;
+}
+.left-contant p::first-line{
+    color: #fff;
+    font-size: 79px;
+    font-family: system-ui;
+}
+.Rignt-content{
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Rignt{
+    margin-top: -236px;
+    font-size: 28px;
+    letter-spacing: 2px;
+    line-height: 2.3;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.Rignt p::first-line{
+    font-size: 50px;
+    color: #812f4b;
+}
+
+/* end mad section  */
